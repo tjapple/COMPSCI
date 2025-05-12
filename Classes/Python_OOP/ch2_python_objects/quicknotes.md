@@ -1,8 +1,9 @@
-__str__ is the user-friendly representation. Define what you want printed when you call print(obj)
+\_\_str\_\_ is the user-friendly representation. Define what you want printed when you call print(obj)
 
-__repr__ is the developer version. Define it like this: f"<Classname>(arg1={self.arg1}, arg2={self.arg2})
+\_\_repr\_\_ is the developer version. Define it like this: f"\<Classname\>(arg1={self.arg1}, arg2={self.arg2})
 
 -good practice to use both
+
 
 
 
